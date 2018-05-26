@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Loop_Array</title>
+    </head>
+    <body>
+    	<h1>Loop & Array</h1>
+    	<script>
+    		var coworkers = ['egoing', 'leezche', 'duru', 'taeho'];
+    	</script>
+    	<h2>Co workers</h2>
+    	<ul>
+    		<script>
+    		var i = 0;
+    		while(i < coworkers.length) {
+    			document.write('<li><a href="http://a.com/'+coworkers[i]+'">'+coworkers[i]+'</a></li>');
+    			i = i + 1;
+    		}
+    		</script>
+    		<li>egoing</li>
+    		<li>leezche</li>
+    		<li>duru</li>
+    		<li>taeho</li>
+    	</ul>
+    </body>
+</html>
